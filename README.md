@@ -1,1 +1,2 @@
 # project-1
+Instructions: One has 6 attempts to guess from 26 letters. Once a letter is selceted the box with the letter selected will light up green for a letter in the answer or red box will be shown as a wrong letter choice. 
