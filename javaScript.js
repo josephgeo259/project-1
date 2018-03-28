@@ -6,9 +6,10 @@ var guess;
 var secretWord;
 var underscoreWord = [];
 var failedCounter;
+//selects random word from the words array 
 var randomInt = Math.floor(Math.random() * words.length)
 console.log(randomInt)
-
+// takes random word and splits each letter into is own strings 
 var secretWord = words[randomInt];
 console.log(secretWord)
 var splitWord = secretWord.split("")
