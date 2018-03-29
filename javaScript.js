@@ -5,7 +5,7 @@ const wrongGuesses= [];
 let letterPicked;
 //const guess;
 //const secretWord;
-const underscoreWord = [];
+let underscoreWord = [];
 //const failedCounter;
 //selects random word from the words array 
 const randomInt = Math.floor(Math.random() * words.length)
@@ -18,6 +18,11 @@ console.log('splitWord: ', splitWord)
 
 // check if the guess is right 
 
+for (var i = 0; i < secretWord.length; i++) {
+    underscoreWord.push("_ ")
+}
+$("#dashs").append(underscoreWord);
+
 $(document).ready(function () {
     $("button").on("click", function () {
         letterPicked = ($(event.target).attr('id'));
@@ -29,11 +34,7 @@ $(document).ready(function () {
 
 
 
-
-        for (var i = 0; i < secretWord.length; i++) {
-            underscoreWord.push("_ ")
-        }
-        $("#dashs").append(underscoreWord);
+      
 
     });
 });
@@ -61,6 +62,11 @@ function rightInput() {
         $("#dashs").text(underscoreWord.join(" "))
 
     }
+
+
+
+
+
 
 }
 
