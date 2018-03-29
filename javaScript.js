@@ -1,5 +1,5 @@
 const words = ['tray', 'hand', 'star', 'bear', 'fort', 'nail'];
-const maxAttempts = 6;
+let maxAttempts = 6;
 const rightGuesses= [];
 const wrongGuesses= [];
 let letterPicked;
@@ -22,17 +22,26 @@ $(document).ready(function () {
     $("button").on("click", function () {
         letterPicked = ($(event.target).attr('id'));
         alert(letterPicked.toUpperCase() + " was the letter clicked.");
+        console.log(letterPicked + " clickevent");
+        // evaluteUserInput(letterPicked)
+        wrongInput();
 
-        console.log("test")
-        console.log(letterPicked + " clickevent")
     });
 });
-$('button').on('click',function(){
+function wrongInput(){
+    console.log((secretWord.indexOf(letterPicked) === -1)+ " checking if its worng pick")
+
+    if (secretWord.indexOf(letterPicked) === -1) {
+        console.log(maxAttempts + " lives")
+        maxAttempts = maxAttempts - 1;
+        console.log( maxAttempts + " checking life is taken away")
+    }
+}
 
 
-//evaluteUserInput(event.target.id)
-});
-console.log("test1")
+
+
+
 
 
 function evaluteUserInput(id) { 
@@ -42,14 +51,7 @@ function evaluteUserInput(id) {
 
     }
 }
-//     console.log("first guess", guess)
-//     if(guess=== splitWord[i]){
-//      rightGuesses.push (guess)
-// console.log("second guess", guess)
-//     }
-// }
-// }   
-// rightGuess() 
+
 // // add click events for letters
  
 
@@ -58,13 +60,7 @@ function evaluteUserInput(id) {
 
 
 
-// $('#a','#b','#c','#d','#e','#f','#g','#h','#i','#j',
-// '#k','#l','#m','#n','#o','#p','#q','#r','#s','#t','#u',
-// '#v','#w','#x','#y','#z').click(() => {
-// )
-//     .push(guess)
-//     console.log(guess)
-// })
+
 //if right push up to right array
 
 //if wrong push to wrong array 
