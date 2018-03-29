@@ -28,5 +28,9 @@ https://www.w3schools.com/cssref/pr_background-image.asp
 image id = https://bloximages.newyork1.vip.townnews.com/gwinnettdailypost.com/content/tncms/assets/v3/editorial/8/a7/8a78128e-dbd3-11e7-8da4-c3d6068c2316/5a2a1a768f970.image.jpg?resize=1200%2C771
 https://www.youtube.com/watch?v=AY6X5jZZ_JE&t=13s
 http://try.jquery.com/levels/1/challenges/10
-https://stackoverflow.com/questions/5264922/javascript-math-floormath-randomarray-length-not-producing-a-random-number
+https://stackoverflow.com/questions/5264922/javascript-math-floormath-randomarray-length-not-producing-a-random-numbe
+
+# versions 2
+
+
 
