@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
-    color: rgb(69, 160, 212);
-    background-color: rgb(97, 21, 72);
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 0, 0);
     font-size: 100px;
     font-style: unset
 }
@@ -30,3 +30,7 @@ h2 {
     text-align: center;
 }
 
+body {
+   background-image: url("http://i.dailymail.co.uk/i/pix/2018/01/15/03/482623B700000578-5269289-image-a-9_1515986932566.jpg");
+   background-color: #cccccc;
+}

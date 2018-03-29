@@ -1,12 +1,11 @@
 const words = ['tray', 'hand', 'star', 'bear', 'fort', 'nail'];
+
 let maxAttempts = 6;
 const rightGuesses = [];
 const wrongGuesses = [];
 let letterPicked;
-//const guess;
-//const secretWord;
 let underscoreWord = [];
-//const failedCounter;
+
 //selects random word from the words array 
 const randomInt = Math.floor(Math.random() * words.length)
 console.log('randomInt: ', randomInt)
