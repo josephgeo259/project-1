@@ -29,7 +29,8 @@ image id = https://bloximages.newyork1.vip.townnews.com/gwinnettdailypost.com/co
 https://www.youtube.com/watch?v=AY6X5jZZ_JE&t=13s
 http://try.jquery.com/levels/1/challenges/10
 https://stackoverflow.com/questions/5264922/javascript-math-floormath-randomarray-length-not-producing-a-random-numbe
-
+codepen 
+jquery docs
 # versions 2
 I want to bulid a home page. 
 I want to build a hangman that shows the 6 attempts per body part. 
