@@ -17,7 +17,7 @@ This is a link to my game on Bitballon...
 This web application helped my project stay organized and kept my focus on small storys of my code. Heres a link to my trello... https://trello.com/b/T91lHqHm/project-1
 
 # Wireframe: 
-These are the begining templates for my game. Take a look at the 
+These are the begining templates for my game. Take a look at the https://imgur.com/a/2luyg
 
 # Resources:
 https://www.w3schools.com/jquery/html_text.asp
@@ -31,6 +31,15 @@ http://try.jquery.com/levels/1/challenges/10
 https://stackoverflow.com/questions/5264922/javascript-math-floormath-randomarray-length-not-producing-a-random-numbe
 
 # versions 2
+I want to bulid a home page. 
+I want to build a hangman that shows the 6 attempts per body part. 
+Put an instructions link.
+More animation in my game.
+
+# problems 
+click events 
+calling funtions 
+
 
 
 
