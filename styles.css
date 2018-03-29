@@ -30,7 +30,8 @@ h2 {
 }
 #attempts{
     text-align: center;
-    color: whitesmoke
+    color: whitesmoke;
+    font-size: 60px;
 }
 
 body {
