@@ -1,7 +1,7 @@
 # Project-1 HANGMAN
 
 # Instructions: 
-Try to guess what the words. Players have 6 attempts to guess from 26 letters. Once a letter is selceted that letter button selected will fade out for a letter in the secret word. Every wrong letter button gives you one less attempt.
+One letter at a time select words that you think are in the secret word. Players have 6 attempts to guess from 26 letters. Once a letter is selceted that letter button selected will fade out and will be disabled and then replaces the underscore with a letter in the secret word. Every wrong letter button gives you one less attempt.
 
 # Objectives Met:
 Demonstrated the ability to use HTML and CSS to build and style in an intuitive web application.
