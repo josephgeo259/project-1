@@ -8,6 +8,7 @@ let underscoreWord = [];
 
 //selects random word from the words array 
 const randomInt = Math.floor(Math.random() * words.length)
+//https://stackoverflow.com/questions/5264922/javascript-math-floormath-randomarray-length-not-producing-a-random-number
 console.log('randomInt: ', randomInt)
 // takes random word and splits each letter into is own strings 
 const secretWord = words[randomInt];
@@ -18,10 +19,10 @@ console.log('splitWord: ', splitWord)
 // counts the secret word length then produces dash for the html
 
 for (var i = 0; i < secretWord.length; i++) {
-    underscoreWord.push("_ ")//?
+    underscoreWord.push("_ ")
 }
 // pushing to the end of the dashs
-$("#dashs").append(underscoreWord);//?
+$("#dashs").append(underscoreWord);
 
 $(document).ready(function () {
 
