@@ -19,10 +19,10 @@ console.log('splitWord: ', splitWord)
 // counts the secret word length then produces dash for the html
 
 for (var i = 0; i < secretWord.length; i++) {
-    underscoreWord.push("_ ")
+    underscoreWord.push("_ ")//?
 }
 // pushing to the end of the dashs
-$("#dashs").append(underscoreWord);
+$("#dashs").append(underscoreWord);//?
 
 $(document).ready(function () {
 
@@ -73,8 +73,8 @@ function rightInput() {
             underscoreWord[i] = letterPicked
             console.log(underscoreWord[i] + " Is the value  pushed to Array")
         }
-        //removing dashes and making a string 
-        $("#dashs").text(underscoreWord.join(" "))
+        //updating dash with letters
+        $("#dashs").text(underscoreWord.join(" "))//?
 
     }
 }
