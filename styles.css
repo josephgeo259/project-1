@@ -16,7 +16,7 @@ h3 {
 h2 {
     text-align: center;
     font-size: 160px;
-    color: whitesmoke
+    color: whitesmoke;
 }
 .btn-outline-success{
     font-size: 99px;
@@ -29,6 +29,7 @@ h2 {
 #dashs{
     text-align: center; 
     text-shadow: 5px 5px gray;
+    word-spacing: 30px;
 
 }
 #attempts{
