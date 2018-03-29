@@ -1,6 +1,5 @@
 # Project-1 HANGMAN
 
-
 # Instructions: 
 Try to guess what the words. Players have 6 attempts to guess from 26 letters. Once a letter is selceted that letter button selected will fade out for a letter in the secret word. Every wrong letter button gives you one less attempt.
 
@@ -15,7 +14,7 @@ Present this project in a presentation style format.
 This is a link to my game on Bitballon...
 
 # Trello: 
-This web application helped my project stay organized and kept my focus on small storys of my code. Heres a link to my trello...
+This web application helped my project stay organized and kept my focus on small storys of my code. Heres a link to my trello... https://trello.com/b/T91lHqHm/project-1
 
 # Wireframe: 
 These are the begining templates for my game. Take a look at the 
