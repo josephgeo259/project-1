@@ -5,7 +5,7 @@ One letter at a time select words that you think are in the secret word. Players
 
 # Objectives Met:
 Demonstrated the ability to use HTML and CSS to build and style in an intuitive web application.
-Demonstrate the competancy in DOM manipulation using JavaScript.
+Demonstrated the understanding of the DOM manipulation using JavaScript.
 Publish the source code to GitHub with a solid README.md describing the project.
 Deploy this application to a production environment such BitBalloon.
 Present this project in a presentation style format.
