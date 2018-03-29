@@ -9,10 +9,12 @@ h3 {
     text-align: center;
     font-style: oblique;
     font-size: 60px;
+    color: red
 }
 h2 {
     text-align: center;
     font-size: 160px;
+    color: whitesmoke
 }
 .btn-outline-success{
     font-size: 99px;
@@ -23,14 +25,15 @@ h2 {
 
 }
 #dashs{
-    text-align: center;
+    text-align: center; 
 
 }
 #attempts{
     text-align: center;
+    color: whitesmoke
 }
 
 body {
-   background-image: url("http://i.dailymail.co.uk/i/pix/2018/01/15/03/482623B700000578-5269289-image-a-9_1515986932566.jpg");
+   background-image: url(https://bloximages.newyork1.vip.townnews.com/gwinnettdailypost.com/content/tncms/assets/v3/editorial/8/a7/8a78128e-dbd3-11e7-8da4-c3d6068c2316/5a2a1a768f970.image.jpg?resize=1200%2C771);
    background-color: #cccccc;
 }
