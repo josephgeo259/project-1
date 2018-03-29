@@ -39,7 +39,7 @@ More animation in my game.
 # problems 
 click events - help from two ta/s
 calling funtions - youtube
-
+css - playing around with it 
 
 
 
