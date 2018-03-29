@@ -6,12 +6,12 @@ One letter at a time select words that you think are in the secret word. Players
 # Objectives Met:
 Demonstrated the ability to use HTML and CSS to build and style in an intuitive web application.
 Demonstrated the understanding of the DOM manipulation using JavaScript.
-Publish the source code to GitHub with a solid README.md describing the project.
-Deploy this application to a production environment such BitBalloon.
-Present this project in a presentation style format.
+Published the source code to GitHub with a solid README.md describing the project.
+Deployed this application to a production environment such BitBalloon.
+Presented this project in a presentation style format.
 
 # Bitballon: 
-This is a link to my game on Bitballon... http://elastic-lumiere-9a5db3.bitballoon.com/
+This is a link to my game on Bitballon...have fun everyone! http://elastic-lumiere-9a5db3.bitballoon.com/
 
 # Trello: 
 This web application helped my project stay organized and kept my focus on small storys of my code. Heres a link to my trello... https://trello.com/b/T91lHqHm/project-1
@@ -37,8 +37,8 @@ Put an instructions link.
 More animation in my game.
 
 # problems 
-click events 
-calling funtions 
+click events - help from two ta/s
+calling funtions - youtube
 
 
 
