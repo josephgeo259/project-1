@@ -25,11 +25,21 @@ $(document).ready(function () {
         console.log(letterPicked + " clickevent");
         // evaluteUserInput(letterPicked)
         wrongInput();
+        rightInput();
+
+
+
+
+        for (var i = 0; i < secretWord.length; i++) {
+            underscoreWord.push("_ ")
+        }
+        $("#dashs").append(underscoreWord);
 
     });
 });
+// checking if there are wrong inputs and taking away a life 
 function wrongInput(){
-    console.log((secretWord.indexOf(letterPicked) === -1)+ " checking if its worng pick")
+    console.log((secretWord.indexOf(letterPicked) === -1)+ " checking if this is a wrong pick")
 
     if (secretWord.indexOf(letterPicked) === -1) {
         console.log(maxAttempts + " lives")
@@ -37,19 +47,21 @@ function wrongInput(){
         console.log( maxAttempts + " checking life is taken away")
     }
 }
+// checking if right input and lives stay constant 
+function rightInput() { 
+    console.log()
+// 
+    for (var i = 0; i < secretWord.length; i++) {
+        console.log("Letter In Loop: "+letterPicked +" Letters in Array: "+ secretWord[i])
 
-
-
-
-
-
-
-function evaluteUserInput(id) { 
-    console.log(event.target.id + " input")
-
-    for (let i=0;i > splitWord.length;i++){
+        if (letterPicked === secretWord[i]) {
+            underscoreWord[i] = letterPicked
+            console.log(underscoreWord[i] + " Is the value  pushed to Array" )
+        }
+        $("#dashs").text(underscoreWord.join(" "))
 
     }
+
 }
 
 // // add click events for letters
