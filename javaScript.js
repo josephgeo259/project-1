@@ -26,15 +26,15 @@ $("#dashs").append(underscoreWord);
 $(document).ready(function () {
     $("button").on("click", function () {
         letterPicked = ($(event.target).attr('id'));
+        document.getElementById(letterPicked).disabled = true;
+
         alert(letterPicked.toUpperCase() + " was the letter clicked.");
         console.log(letterPicked + " clickevent");
         // evaluteUserInput(letterPicked)
         wrongInput();
         rightInput();
-
-
-
-      
+        
+     
 
     });
 });
@@ -62,12 +62,6 @@ function rightInput() {
         $("#dashs").text(underscoreWord.join(" "))
 
     }
-
-
-
-
-
-
 }
 
 // // add click events for letters
